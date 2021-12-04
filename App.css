@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.quotes {
+  background-color: darkgoldenrod;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  border-radius: 5px;
+  padding: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quotes h2 {
+  font-size: 40px;
+
+}
+
+.quotes p {
+  font-size: 25px;
+}
+
+button {
+  display: flex;
+  border: 3px solid lightblue;
+  background: transparent;
+  padding: 15px 20px;
+  color: lightblue;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.6s ease;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: #fff;
+}
